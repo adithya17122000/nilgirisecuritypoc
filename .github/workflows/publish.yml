@@ -20,7 +20,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --include=dev
 
       - name: Run tests (optional)
         run: npm test  # Add this step if you have tests
