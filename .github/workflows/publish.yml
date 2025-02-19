@@ -16,14 +16,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Change to your desired Node.js version
+          node-version: '22.11.0'  # Change to your desired Node.js version
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
         run: npm install --include=dev
 
-      - name: Run tests (optional)
-        run: npm test  # Add this step if you have tests
 
       - name: Publish to npm
         run: npm publish
