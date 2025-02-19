@@ -1,7 +1,7 @@
 {
   "name": "nilgirisecurity",
   "version": "1.0.3",
-  "main": "dist/index.js",
+  "main": "nilgiriSecurity",
   "scripts": {
     "test": "ts-node securityScan.ts"
   },
