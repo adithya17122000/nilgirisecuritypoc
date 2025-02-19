@@ -1,6 +1,6 @@
 {
   "name": "nilgirisecurity",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "nilgiriSecurity",
   "scripts": {
     "test": "ts-node securityScan.ts"
